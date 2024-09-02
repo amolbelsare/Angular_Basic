@@ -1,0 +1,5 @@
+<hr>
+<h5>Parent Component</h5>
+<label style="color: gray;">Parent Component: </label>
+<input type="text" #pcomponent (keyup)="0">
+<app-child [pdata] = 'pcomponent.value'></app-child>
